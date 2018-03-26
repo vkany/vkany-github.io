@@ -1,0 +1,439 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 300 100% 'Helvetica Neue', Helvetica, Arial;
+}
+p.page-title{
+  font-size: 39px;
+  color: #6b776b;
+  line-height: 1.2;
+  text-align: center;
+}
+p.body-text{
+  font-size:19px;
+  letter-spacing:1px;
+  line-height:25px;
+}
+div.cover-image{
+background-image: url('../images/home/coverImage3.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: right center;
+border:none;
+}
+nav.navbar{
+  font: 300 100% 'Helvetica Neue', Helvetica, Arial;
+
+}
+
+ul.top-navbar{
+    list-style:none;
+}
+
+
+.top-navbar a {
+    text-decoration: none;
+    color:#6b776b;
+    display:inline-block;
+    padding: 16px 0;
+    margin: 0 10px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.top-navbar a:hover{
+  border-bottom:3px solid #c15730;
+  transition: ease-in;
+
+}
+
+div.form{
+  display: flex;
+  justify-content: center;
+}
+a.current {
+  border-bottom: 3px solid #6b776b;
+
+}
+/* footer*/
+.footer{
+  height:80px;
+  background-color:#6b776b;
+}
+
+.footer div{
+  display: inline-block;
+  float:right;
+  margin-top: 12px;
+  margin-right:15px;
+  height:40%;
+}
+.footer p{
+  display: inline-block;
+  float:left;
+  color:white;
+  margin:30px 0px 0px 25px;
+}
+.footer img{
+  margin:10px;
+  height:100%;
+}
+.footer img:hover{
+  background-color:#c15730;
+  opacity:80%;
+  border-radius: 50px;
+}
+
+/* gallery*/
+.square{
+    background-position: right center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+
+}
+.photo-grid{
+  display: flex;
+  justify-content:center;
+  flex-flow:row wrap;
+  margin-bottom: 25px;
+
+
+}
+.gallery-item{
+  background-repeat:no-repeat;
+  background-repeat:no-repeat;
+  background-size:cover;
+  width:400px;
+  height:400px;
+  margin:5px;
+}
+
+#one{
+  background-image: url("../images/places/leh/1.jpg");
+}
+
+#two{
+  background-image:url("../images/places/leh/2.jpg");
+}
+
+#three{
+  background-image:url("../images/places/leh/3.jpg");
+}
+
+#four{
+  background-image:url("../images/places/leh/4.jpg");
+}
+
+#five{
+  background-image:url("../images/places/leh/5.jpg");
+}
+
+#six{
+  background-image:url("../images/places/leh/6.jpg");
+}
+
+#seven{
+  background-image:url("../images/places/leh/7.jpg");
+}
+
+#eight{
+  background-image:url("../images/places/leh/8.jpg");
+}
+
+#nine{
+  background-image:url("../images/places/leh/9.jpg");
+}
+
+#ten{
+  background-image:url("../images/places/sikkim/1.jpeg");
+}
+
+#eleven{
+  background-image:url("../images/places/sikkim/2.jpg");
+}
+
+#twelve{
+  background-image:url("../images/places/sikkim/3.jpg");
+}
+
+#thirteen{
+
+  background-image:url("../images/places/sikkim/4.jpg");
+}
+#fourteen{
+  background-image:url("../images/places/sikkim/5.jpg");
+}
+#fifteen{
+  background-image:url("../images/places/sikkim/6.jpg");
+}
+#sixteen{
+  background-image:url("../images/places/sikkim/7.jpg");
+}
+
+.gallery-item:hover .overlay {
+    width: 100%;
+    height: 100%;
+    background: #c15730;
+    opacity: .9;
+}
+.text{
+  font-size:25px;
+  letter-spacing: 5px;
+  color:white;
+  font-weight:bold;
+}
+.gallery-item p.text{
+  position: relative;
+  float:left;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+}
+
+.column{
+  float:left;
+  width: 33%
+  padding:10px;
+  height:300px;
+}
+
+div.column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 400px;
+}
+
+.tip-grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo{
+  width:25vh;
+  height:25vh;
+  background-position: center center;
+  background-repeat:none;
+}
+
+.divider{
+  width:100%;
+  height:80px;
+  border-top: 2px dotted grey;
+  margin-top: 20px;
+  background-color:#c15730;
+
+}
+
+#mytrip{
+  background-image:url("../images/tips/Make-My-Trip-Franchise.jpg");
+
+}
+
+#yatra{
+  background-image:url("../images/tips/");
+}
+
+
+
+/* contact me*/
+div.bg{
+  background-image: url("../images/home/coverImage3.jpg");
+  background-repeat: no-repeat;
+
+}
+.container-contact2 {
+  background-image: url("../images/home/coverImage3.jpg");
+
+  background-size: cover;
+  width: 100%;
+  max-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.wrap-contact2 {
+  width: 600px;
+  height:90vh;
+  background: rgba(107,119,107,.6);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 55px 55px 55px 55px;
+}
+
+
+.contact2-form {
+  width: 100%;
+}
+
+.contact2-form-title {
+  display: block;
+  font-size: 39px;
+  color: white;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+
+.wrap-input2 {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #red;
+  margin-bottom: 37px;
+}
+
+.input2 {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  color: #6b776b;
+  line-height: 1.2;
+}
+
+.focus-input2 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.focus-input2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  background: #ebe0b2
+}
+
+.focus-input2::after {
+  content: attr(data-placeholder);
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left:5px;
+  font-family:300 100% 'Helvetica Neue', Helvetica, Arial;
+  letter-spacing:3px;
+  font-size: 13px;
+  color: #c15730;
+  line-height: 1.2;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/*---------------------------------------------*/
+input.input2 {
+  height: 45px;
+}
+
+input.input2 + .focus-input2::after {
+  top: 16px;
+  left: 0;
+}
+
+textarea.input2 {
+  min-height: 115px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+textarea.input2 + .focus-input2::after {
+  top: 16px;
+  left: 0;
+}
+
+.input2:focus + .focus-input2::after {
+  top: -13px;
+}
+
+.input2:focus + .focus-input2::before {
+  width: 100%;
+}
+
+.has-val.input2 + .focus-input2::after {
+  top: -13px;
+}
+
+.has-val.input2 + .focus-input2::before {
+  width: 100%;
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+
+.contact2-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 244px;
+  height: 50px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+}
+.contact2-form-bgbtn {
+  position: absolute;
+  z-index: -1;
+  width: 300%;
+  opacity:70%
+  top: 0;
+  left: -100%;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+
+
+button.contact2-form-btn {
+    margin:20px auto;
+    padding:5px 15px;
+    background:#c15730;
+    border:0 none;
+    color: white;
+    cursor:pointer;
+    border-radius: 10px;
+}
+button.contact2-form-btn:hover{
+    background:white;
+    border:3px solid #6b776b;
+    color:#6b776b;
+
+
+}
+
+
+}

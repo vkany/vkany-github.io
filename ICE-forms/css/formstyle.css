@@ -1,0 +1,42 @@
+@media screen and (min-width: 600px) and (max-width:1000px){
+    .BasicInfo{
+      display: flex;
+    }
+
+    .BasicInfo fieldset{
+      width:50%;
+    }
+
+    .Education {
+      display:flex;;
+    }
+
+    .Education fieldset{
+      width:50%;
+    }
+
+    .Position{
+      display:flex;
+    }
+}
+
+@media screen and (min-width:1000px){
+  .BasicInfo{
+    display: flex;
+  }
+
+  .BasicInfo fieldset{
+    width:50%;
+  }
+
+  .Education {
+    display:flex;;
+  }
+
+  .Education fieldset{
+    width:50%;
+  }
+
+
+
+}
