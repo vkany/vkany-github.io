@@ -41,11 +41,13 @@ ul.top-navbar{
     margin: 0 10px;
     letter-spacing: 3px;
     font-size: 20px;
+    border-bottom:3px solid transparent;
 }
 
 .top-navbar a:hover{
   border-bottom:3px solid #c15730;
-  transition: ease-in;
+  color:#c15730;
+  transition: all .3s ease-in;
 
 }
 
@@ -79,11 +81,13 @@ a.current {
 .footer img{
   margin:10px;
   height:100%;
+  background-color:#c15730 transparent;
 }
 .footer img:hover{
   background-color:#c15730;
   opacity:80%;
   border-radius: 50px;
+  transition: all .3s ease-in;
 }
 
 /* gallery*/
@@ -173,74 +177,101 @@ a.current {
   background-image:url("../images/places/sikkim/7.jpg");
 }
 
-.gallery-item:hover .overlay {
-    width: 100%;
-    height: 100%;
-    background: #c15730;
-    opacity: .9;
-}
 .text{
   font-size:25px;
   letter-spacing: 5px;
   color:white;
   font-weight:bold;
 }
+.gallery-item .overlay{
+  background: #c15730;
+  opacity:0;
+}
+.gallery-item:hover .overlay {
+    width: 100%;
+    height: 100%;
+    background: #c15730;
+    opacity: .9;
+    transition: all .3s ease-in;
+}
 .gallery-item p.text{
-  position: relative;
-  float:left;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
+  line-height: 400px;
+  text-align: center;
+  -webkit-margin-after: 0em;
+  -webkit-margin-before: 0em;
 }
 
-.column{
-  float:left;
-  width: 33%
-  padding:10px;
-  height:300px;
-}
+/*------- tips.html--------*/
 
-div.column {
-    float: left;
-    width: 33%;
-    padding: 10px;
-    height: 400px;
+.band{
+  width:90%;
+  max-width:1024px;
+  margin: 0 auto;
+  display:grid;
+  grid-template-rows: auto;
+  grid-gap:20px;
+  margin-bottom:40px;
 }
-
-.tip-grid:after {
-    content: "";
-    display: table;
-    clear: both;
+.card{
+  min-width:300px;
+  background: white;
+  text-decoration:none;
+  color:#c15730;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+  display:flex;
+  flex-direction: column;
+  min-height:100%
 }
-.logo{
-  width:25vh;
-  height:25vh;
+.card article{
+  padding: 20px;
+}
+.card p{
+  line-height: 1.4;
+  color:#6b776b;
+}
+.card .thumb{
+  padding-bottom:60%;
+  background-size:cover;
   background-position: center center;
-  background-repeat:none;
+  background-repeat: no-repeat;
 }
 
-.divider{
-  width:100%;
-  height:80px;
-  border-top: 2px dotted grey;
-  margin-top: 20px;
-  background-color:#c15730;
-
+.card:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.2);
 }
-
 #mytrip{
   background-image:url("../images/tips/Make-My-Trip-Franchise.jpg");
-
 }
 
 #yatra{
-  background-image:url("../images/tips/");
+  background-image:url("../images/tips/Yatra.jpg");
+}
+#indigo{
+background-image:url("../images/tips/indigo-logo.jpg");
+}
+#jetairwasy{
+  background-image:url("../images/tips/Jet-Airways-Logo.jpg")
+}
+#railways{
+  background-image:url("../images/tips/indian-railways.jpg");
+}
+#spice{
+  background-image:url("../images/tips/SpiceJet-logo.png")
+}
+#uberXola{
+  background-image:url("../images/tips/uber.jpeg")
 }
 
-
+#rickshaw{
+    background-image:url("../images/tips/auto-rickshaw.jpg")
+}
+#oyo{
+    background-image:url("../images/tips/oyo.png");
+}
 
 /* contact me*/
+
 div.bg{
   background-image: url("../images/home/coverImage3.jpg");
   background-repeat: no-repeat;
@@ -248,7 +279,6 @@ div.bg{
 }
 .container-contact2 {
   background-image: url("../images/home/coverImage3.jpg");
-
   background-size: cover;
   width: 100%;
   max-height: 100vh;
@@ -431,6 +461,7 @@ button.contact2-form-btn:hover{
     background:white;
     border:3px solid #6b776b;
     color:#6b776b;
+    transition: all .3s ease-in;
 
 
 }

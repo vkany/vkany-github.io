@@ -93,3 +93,106 @@
   opacity: 1;
   bottom: 0px;
 }
+
+
+------ tips current ---
+<div clas="tip-grid">
+  <div class="divider">
+  <p>Booking Websites</p></div>
+  <div class="columnX2">
+    <div class="logo" id="mytrip"></div>
+    <h3>MakeMyTrip</h3>
+    <p>Make my trip is a website that you can book online for tours, travel, hotels, flight or holiday packages. It is one of the most popular websites and will offer many discount coupons and has great customer service for changes in plans.</p>
+  </div>
+  <div class="columnX2">
+    <div class="logo" id="Yatra"></div>
+    <h3>Yatra.com</h3>
+      <p>Some text..</p>
+  </div>
+  </div>
+  <div clas="tip-grid">
+  <div class="divider">
+  <p>Airlines</p>
+  </div>
+  <div class="column">
+    <div class="logo" id="indigo"></div>
+    <h3>Indigo</h3>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:red;">
+    <h3>Spice Jet</h3>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:blue;">
+    <h3>Jet Airways</h3>
+      <p>Some text..</p>
+  </div>
+</div>
+
+<div clas="tip-grid">
+<div class="divider">
+<p>Other Travel option</p>
+</div>
+<div class="column" style="background-color:yellow;">
+  <h3>Trains</h3>
+  <p>Some text..</p>
+</div>
+<div class="column" style="background-color:yellow;">
+  <h3>Taxi</h3>
+  <p>Some text..</p>
+</div>
+<div class="column" style="background-color:yellow;">
+  <h3>Uber/Ola</h3>
+  <p>Some text..</p>
+</div>
+<div class="column" style="background-color:yellow;">
+  <h3>Auto Rickshaw</h3>
+  <p>Some text..</p>
+</div>
+</div>
+
+
+---- css-----
+.column{
+  float:left;
+  width: 33%
+  padding:10px;
+  height:300px;
+}
+
+div.column {
+    display: flex;
+    width: 33%;
+    padding: 10px;
+    height: 400px;
+}
+div.columnX2{
+  display: inline-block;
+  width:50%;
+  padding: 10px;
+  height: 400px;
+}
+.tip-grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo{
+  width:25vh;
+  height:25vh;
+  background-position: center center;
+  background-repeat:none;
+}
+
+.divider{
+  width:100%;
+  height:50px;
+  border-top: 2px dotted grey;
+  margin-top: 20px;
+  color:white;
+  font-size:20px;
+  background-color:#c15730;
+  text-align:center;
+
+}
+
