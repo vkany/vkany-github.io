@@ -362,7 +362,7 @@ div.bg{
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
-  background: #ebe0b2
+  background: #c15730
 }
 
 .focus-input2::after {
@@ -386,12 +386,20 @@ div.bg{
 }
 
 /*---------------------------------------------*/
+label {
+  color:#ffff;
+  opacity:0;
+}
+span{
+  color:#ffff;  
+}
+
 input.input2 {
   height: 45px;
 }
 
 input.input2 + .focus-input2::after {
-  top: 16px;
+  top: 30px;
   left: 0;
 }
 
@@ -402,7 +410,7 @@ textarea.input2 {
 }
 
 textarea.input2 + .focus-input2::after {
-  top: 16px;
+  top: 30px;
   left: 0;
 }
 
