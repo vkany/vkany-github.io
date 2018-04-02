@@ -17,6 +17,7 @@ p.body-text{
   line-height:25px;
 }
 div.cover-image{
+
 background-image: url('../images/home/coverImage3.jpg');
 background-repeat: no-repeat;
 background-size:cover;
@@ -168,18 +169,24 @@ a.current {
   background-image:url("../images/places/sikkim/4.jpg");
 }
 #fourteen{
-  background-image:url("../images/places/sikkim/5.jpg");
+  background-image:url("../images/places/Rajasthan/Jaipur-palace.jpg");
 }
 #fifteen{
-  background-image:url("../images/places/sikkim/6.jpg");
+  background-image:url("../images/places/Rajasthan/rajasthan1.jpg");
 }
 #sixteen{
-  background-image:url("../images/places/sikkim/7.jpg");
+  background-image:url("../images/places/Rajasthan/Jootis.jpg");
+}
+#seventeen{
+  background-image:url("../images/places/Rajasthan/jodhpur.jpg");
+}
+#eighteen{
+  background-image:url("../images/places/Rajasthan/rajathanithali.jpg");
 }
 
 .text{
   font-size:25px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   color:white;
   font-weight:bold;
 }
