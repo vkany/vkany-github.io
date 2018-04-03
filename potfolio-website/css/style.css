@@ -386,17 +386,17 @@ div.bg{
 }
 
 /*---------------------------------------------*/
-label {
+/* label {
   color:#ffff;
   opacity:0;
-}
+} */
 
 input.input2 {
   height: 45px;
 }
 
 input.input2 + .focus-input2::after {
-  top: 30px;
+  top: 16px;
   left: 0;
 }
 
@@ -405,7 +405,6 @@ textarea.input2 {
   padding-top: 13px;
   padding-bottom: 13px;
 }
-
 textarea.input2 + .focus-input2::after {
   top: 30px;
   left: 0;
