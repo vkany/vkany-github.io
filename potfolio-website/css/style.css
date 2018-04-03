@@ -385,11 +385,6 @@ div.bg{
   transition: all 0.4s;
 }
 
-/*---------------------------------------------*/
-/* label {
-  color:#ffff;
-  opacity:0;
-} */
 
 input.input2 {
   height: 45px;
@@ -406,7 +401,7 @@ textarea.input2 {
   padding-bottom: 13px;
 }
 textarea.input2 + .focus-input2::after {
-  top: 30px;
+  top: 16px;
   left: 0;
 }
 
