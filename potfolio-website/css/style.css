@@ -347,6 +347,8 @@ div.bg{
   top: 0;
   left: 0;
   pointer-events: none;
+   opacity: 1;
+   color: white;
 }
 
 .focus-input2::before {
@@ -405,8 +407,9 @@ textarea.input2 + .focus-input2::after {
   left: 0;
 }
 
+
 .input2:focus + .focus-input2::after {
-  top: -13px;
+  top: -16px;
 }
 
 .input2:focus + .focus-input2::before {
@@ -414,11 +417,21 @@ textarea.input2 + .focus-input2::after {
 }
 
 .has-val.input2 + .focus-input2::after {
-  top: -13px;
+  top: -16px;
 }
 
 .has-val.input2 + .focus-input2::before {
   width: 100%;
+}
+
+.input2:focus + .focus-input2,
+.has-val.input2 + .focus-input2
+ {
+   -webkit-transition: all 0.4s;
+   -o-transition: all 0.4s;
+   -moz-transition: all 0.4s;
+   transition: all 0.4s;
+   opacity: 0;
 }
 
 /*------------------------------------------------------------------
