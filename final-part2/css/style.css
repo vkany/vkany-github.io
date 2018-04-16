@@ -2,11 +2,14 @@ body{
 background: url("../images/tic-tac-toe.png");
 
 }
-div{
-margin:0 auto;
+.master{
+text-align:center;
 }
+
+
 img{
   border:5px solid blue;
   padding:5%;
-  width:35%
+  width:50%;
+  display:inline-block;
 }

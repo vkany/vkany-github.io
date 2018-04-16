@@ -7,13 +7,20 @@
   </head>
   <body>
     <h1>Vibhuti Kanitkar</h1>
-    <div>
-      <img src="images/examPic.JPG" id="image1" class="flex">
-     <img src="images/UMSI-logo.jpg" id="image2" class="flex">
-   </div>
+    <div class="master">
+     <img src="images/examPic.JPG" id="image1">
+     <img src="images/UMSI-logo.jpg" id="image2">
+    </div>
     <button id="show" onclick="show()">Show Image</button>
     <button id="hide" onclick="hide()">Hide Image</button>
 
-  <script src = "js/action.js"></script>
+  <script>
+  function hide() {
+    document.getElementById("image1").style.display = "none";
+}
+function show() {
+  document.getElementById("image1").style.display = "block";
+}
+</script>
   </body>
 </html>
