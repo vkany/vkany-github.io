@@ -1,0 +1,12 @@
+body{
+background: url("../images/tic-tac-toe.png");
+
+}
+div{
+margin:0 auto;
+}
+img{
+  border:5px solid blue;
+  padding:5%;
+  width:35%
+}
